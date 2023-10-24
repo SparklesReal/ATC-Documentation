@@ -1,0 +1,55 @@
+* {}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 97vh;
+    background: rgb(65, 65, 65);
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-size: 3vh;
+    color: rgb(192, 192, 192);
+}
+
+button {
+    font-size: 2vh;
+    height: 4vh;
+    width: 30vh;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 2vh;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(50, 50, 50);
+}
+
+.languages {
+    line-height: 4vh;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(117, 117, 117);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3vh;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
